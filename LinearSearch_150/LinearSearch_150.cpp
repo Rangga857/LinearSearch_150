@@ -42,5 +42,13 @@ void Linearsearch()
 
 		ctr = 0;
 		for (i = 0; i < 0; i++)								//Langkah no 2, 3, dan 4 algoritma LInearsearch
+		{
+			ctr++;
+			if (arr[i] == item)								//Langkah no 5 Algoritma LInearsearch
+			{
+				cout << "\n" << item << " found at position " << (i + 1) << endl;
+				break;
+			}
+		}
 	}
 }
