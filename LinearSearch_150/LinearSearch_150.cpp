@@ -26,5 +26,10 @@ void input()
 		cout << "<" << (i + 1) << "> ";
 		cin >> arr[i];
 	}
+}
 
+void Linearsearch()
+{
+	char ch;
+	int ctr; // Number of comparisons
 }
