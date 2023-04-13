@@ -50,5 +50,7 @@ void Linearsearch()
 				break;
 			}
 		}
+
+		if (i == n)											// Langkah no 5 Algoritma Linearsearch
 	}
 }
